@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
+/* Genel stil */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Giriş/Kayıt ekranı için stil */
+.auth-container {
+  padding: 20px;
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input-field {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Kullanıcı listesi için stil */
+.users-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.App-link {
-  color: #61dafb;
+.user-item {
+  padding: 10px;
+  background-color: #f1f1f1;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.user-item:hover {
+  background-color: #e1e1e1;
+}
+
+/* Chat ekranı için stil */
+.chat-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.message-item {
+  padding: 10px;
+  background-color: #f1f1f1;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+/* Modal stil */
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.modal-option {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+}
+
+.modal-option:hover {
+  background-color: #f9f9f9;
+}
+
+/* Yaptığı İşler sayfası için stil */
+.works-page {
+  padding: 20px;
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
