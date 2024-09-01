@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/chatim/static/css/main.a670d442.css",
-    "main.js": "/chatim/static/js/main.db26b1bb.js",
+    "main.css": "/chatim/static/css/main.7e014310.css",
+    "main.js": "/chatim/static/js/main.3be50e43.js",
     "static/js/453.4cdf1cc5.chunk.js": "/chatim/static/js/453.4cdf1cc5.chunk.js",
     "index.html": "/chatim/index.html",
-    "main.a670d442.css.map": "/chatim/static/css/main.a670d442.css.map",
-    "main.db26b1bb.js.map": "/chatim/static/js/main.db26b1bb.js.map",
+    "main.7e014310.css.map": "/chatim/static/css/main.7e014310.css.map",
+    "main.3be50e43.js.map": "/chatim/static/js/main.3be50e43.js.map",
     "453.4cdf1cc5.chunk.js.map": "/chatim/static/js/453.4cdf1cc5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a670d442.css",
-    "static/js/main.db26b1bb.js"
+    "static/css/main.7e014310.css",
+    "static/js/main.3be50e43.js"
   ]
 }
