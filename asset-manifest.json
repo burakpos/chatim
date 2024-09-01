@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/chatim/static/css/main.e6c13ad2.css",
-    "main.js": "/chatim/static/js/main.b95ebeba.js",
+    "main.js": "/chatim/static/js/main.60eeffff.js",
     "static/js/453.14d0783e.chunk.js": "/chatim/static/js/453.14d0783e.chunk.js",
     "index.html": "/chatim/index.html",
     "main.e6c13ad2.css.map": "/chatim/static/css/main.e6c13ad2.css.map",
-    "main.b95ebeba.js.map": "/chatim/static/js/main.b95ebeba.js.map",
+    "main.60eeffff.js.map": "/chatim/static/js/main.60eeffff.js.map",
     "453.14d0783e.chunk.js.map": "/chatim/static/js/453.14d0783e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.b95ebeba.js"
+    "static/js/main.60eeffff.js"
   ]
 }
